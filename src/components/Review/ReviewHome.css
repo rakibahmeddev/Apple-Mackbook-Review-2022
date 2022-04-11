@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .review-item {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+}

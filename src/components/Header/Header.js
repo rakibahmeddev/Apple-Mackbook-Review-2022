@@ -11,7 +11,7 @@ const Header = () => {
           <Link to="/">M1 Cheap</Link>
         </h2>
       </div>
-      <div className="menu md:flex gap-10 justify-end">
+      <div className="menu md:flex gap-5 justify-end">
         <Nav to="/">Home</Nav>
         <Nav to="/review">Review</Nav>
         <Nav to="/dashboard">Dashboard</Nav>
