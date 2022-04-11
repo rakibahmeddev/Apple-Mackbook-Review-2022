@@ -1,0 +1,13 @@
+.home-left-text {
+  max-width: 500px;
+}
+
+@media (max-width: 850px) {
+  .home-left-text {
+    width: 100%;
+  }
+  .home-img {
+    width: 70%;
+    margin: auto;
+  }
+}

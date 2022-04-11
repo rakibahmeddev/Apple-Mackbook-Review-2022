@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Nav from "./Nav/Nav";
 
 const Header = () => {
+  // const [open, setOpen] = useState(false);
   return (
     <div className="header bg-emerald-500 text-white  py-4 px-20 flex justify-between items-center">
       <div className="logo">
