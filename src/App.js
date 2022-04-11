@@ -7,6 +7,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Blogs from "./components/Blogs/Blogs";
 import Contact from "./components/Contact/Contact";
 import NotFound from "./components/NotFound/NotFound";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       </div>
+
+      {/* App footer  */}
+      <Footer></Footer>
     </div>
   );
 }

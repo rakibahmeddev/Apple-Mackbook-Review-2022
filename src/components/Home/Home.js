@@ -13,9 +13,11 @@ const Home = () => {
           </h2>
           <div className="home-left-text">
             <p className="md:text-left text-center text-3">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is th
+              Apple MacBook Air 2020 is a macOS laptop with a 13.30-inch display
+              that has a resolution of 2560x1600 pixels. It is powered by a Core
+              i3 processor and it comes with 8GB of RAM. The Apple MacBook Air
+              2020 packs 256GB of SSD storage. Graphics are powered by
+              Integrated Graphics Processor
             </p>
           </div>
           <div className="my-5 flex md:justify-start justify-center">
@@ -34,15 +36,15 @@ const Home = () => {
       </div>
 
       {/* Review area  */}
-      <div className="bg-indigo-700 text-white py-10">
+      <div className="bg-indigo-700 text-white py-14">
         <h2 className="text-5xl font-medium">Customer Review</h2>
         <div className="review-area">
           <ReviewHome></ReviewHome>
 
-          <div>
+          <div className="mb-10">
             <Link
               to="/review"
-              className="bg-emerald-500 text-white font-medium shadow-lg px-5 py-3 rounded "
+              className="bg-emerald-500 text-white font-medium shadow-lg px-5 py-3  rounded "
             >
               See more reviews
             </Link>
