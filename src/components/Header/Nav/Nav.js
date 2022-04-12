@@ -10,7 +10,7 @@ function Nav({ children, to, ...props }) {
       <Link
         className="menu-item font-medium py-1 px-3"
         style={{
-          borderBottom: match ? "3px solid orange" : "",
+          borderBottom: match ? "3px solid #10b981" : "",
         }}
         to={to}
         {...props}

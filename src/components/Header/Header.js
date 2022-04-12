@@ -5,7 +5,7 @@ import Nav from "./Nav/Nav";
 const Header = () => {
   // const [open, setOpen] = useState(false);
   return (
-    <div className="header bg-emerald-500 text-white  py-4 px-20 flex justify-between items-center">
+    <div className="header bg-black text-white  py-4 px-20 flex justify-between items-center">
       <div className="logo">
         <h2 className="text-4xl font-bold">
           <Link to="/">M1 Cheap</Link>
