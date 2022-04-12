@@ -6,8 +6,8 @@ const ReviewCard = (props) => {
 
   return (
     <div>
-      <div>
-        <div className="shadow-xl rounded-lg  py-5 px-5">
+      <div className="bg-white">
+        <div className="  shadow-xl rounded-lg  py-5 px-5">
           <p>{review}</p>
 
           <div className="flex justify-between items-center">
