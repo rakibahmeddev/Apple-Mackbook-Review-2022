@@ -21,7 +21,7 @@ const Home = () => {
             </p>
           </div>
           <div className="my-5 flex md:justify-start justify-center">
-            <button className="bg-emerald-500 text-white font-medium shadow-lg px-5 py-3 rounded ">
+            <button className="font-semibold leading-none text-white py-4 px-10 bg-emerald-500 rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-non">
               Learn More
             </button>
             <p></p>
@@ -44,7 +44,7 @@ const Home = () => {
           <div className="mb-10">
             <Link
               to="/review"
-              className="bg-emerald-500 text-white font-medium shadow-lg px-5 py-3  rounded "
+              className="font-semibold leading-none text-white py-4 px-10 bg-emerald-500 rounded hover:bg-white hover:text-black focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none"
             >
               See more reviews
             </Link>
