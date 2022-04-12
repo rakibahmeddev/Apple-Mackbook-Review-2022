@@ -1,6 +1,12 @@
 .home-left-text {
   max-width: 500px;
 }
+@media (min-width: 850px) and (max-width: 1360px) {
+  .home-img {
+    width: 70% !important;
+    height: 100%;
+  }
+}
 
 @media (max-width: 850px) {
   .home-left-text {
@@ -8,7 +14,13 @@
   }
   .home-img {
     width: 70%;
+
     margin: auto;
     padding-bottom: 80px;
+  }
+}
+@media (max-width: 760px) {
+  .home-img {
+    width: 50%;
   }
 }
