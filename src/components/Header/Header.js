@@ -15,7 +15,7 @@ const Header = () => {
         <Nav to="/">Home</Nav>
         <Nav to="/review">Review</Nav>
         <Nav to="/dashboard">Dashboard</Nav>
-        <Nav to="/blogs">Blogs</Nav>
+        <Nav to="/faq">FAQ</Nav>
         <Nav to="/contact">Contact</Nav>
       </div>
     </div>
