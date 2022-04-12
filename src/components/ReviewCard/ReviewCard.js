@@ -3,6 +3,7 @@ import React from "react";
 const ReviewCard = (props) => {
   const { review, picture, name, rating } = props.review;
   //   console.log(review.name);
+
   return (
     <div>
       <div className="bg-white text-black rounded-lg py-5 px-5">
